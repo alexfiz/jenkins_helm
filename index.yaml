@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  jenkins_demo:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-06-04T08:20:38.056049494Z"
+    description: A Helm chart for Kubernetes
+    digest: b128015a83ac98319e9e0a4a222a3c36a0ab839248bfee0d4eeed174e2bd1075
+    name: jenkins_demo
+    type: application
+    urls:
+    - https://alexfiz.github.io/jenkins_helm/jenkins_demo-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-06-04T08:20:38.054544503Z"
