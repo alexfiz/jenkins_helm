@@ -112,17 +112,17 @@ data:
             url: {{ index .Values "url" "main_host_url" }}
           shell:
             shell: "/bin/bash"
----
-apiVersion: rbac.authorization.k8s.io/v1
-kind: ClusterRoleBinding
-metadata:
-  name: jenkins-helm
-  namespace: jenkins-helm
-roleRef:
-  apiGroup: rbac.authorization.k8s.io
-  kind: ClusterRole
-  name: cluster-admin
-subjects:
-- kind: ServiceAccount
-  name: default
-  namespace: jenkins-helm
+#---
+# apiVersion: rbac.authorization.k8s.io/v1
+#kind: ClusterRoleBinding
+#metadata:
+# name: jenkins-helm
+#  namespace: jenkins-helm
+#roleRef:
+#  apiGroup: rbac.authorization.k8s.io
+#  kind: ClusterRole
+#  name: cluster-admin
+#subjects:
+#- kind: ServiceAccount
+#  name: default
+#  namespace: jenkins-helm
